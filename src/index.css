@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply w-full overflow-x-hidden bg-black font-sans text-white antialiased; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.hairline { border: 1px solid rgba(228,166,56,0.15); }
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
